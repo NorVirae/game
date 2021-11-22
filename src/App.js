@@ -7,20 +7,21 @@ function App() {
     
       <>
         <section className="navbar">
-          <div className="container flex justify-content-space-between">
+          <div className="container flex">
             {/* First Nav */}
+            <img className="logo" src={logo} alt="logo" />
 
-            <nav className="first-nav">
-              <img className="logo" src={logo} alt="logo" />
 
-              <ul  className="nav-middle">
-                <li>Dashboard</li>
-                <li className="market-btn"><i class="fas fa-home"></i>Marketplace</li>
+            <nav className="flex justify-content-space-between ml-9">
+
+              <ul  className="">
+                <li className="text-dim-white">Dashboard</li>
+                <li className="btn-market m-1"><i class="fas fa-home text-dim-ash mr-1"></i>Marketplace</li>
               </ul>
 
-              <ul className="nav-right">
-                <li><span class="fas fa-headphones"></span></li>
-                <li><span class="fas fa-power-off">Login</span></li>
+              <ul className="">
+                <li><i class="fas fa-headphones btn-headphone p-1"></i></li>
+                <li className="market-btn"><span class="fas fa-power-off m-1 "></span>Login</li>
               </ul>
 
             </nav>
@@ -30,10 +31,10 @@ function App() {
           </section>
 
           <section className="navbar bg-purple-2">
-          <div className="container flex">
+          <div className="container flex ">
             {/* Second Nav */}
-            <nav className="second-nav">
-              <ul>
+            <nav className="flex ">
+              <ul className="justify-self-start p-1 justify-content-space-around">
                 <li>Cyberspawns</li>
                 <li>Cyberskins</li>
 
@@ -50,7 +51,7 @@ function App() {
             <section className="navbar bg-purple">
           <div className="container flex">
             {/* Third Nav */}
-            <nav className="third-nav">
+            <nav className="flex justify-content-space-between">
               <ul>
                 <li>Filter</li>
                 <li>Aves</li>
