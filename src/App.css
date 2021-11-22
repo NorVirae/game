@@ -1,0 +1,170 @@
+/* Utilities */
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* containers */
+
+.container {
+    max-width: 77rem;
+    margin: auto;
+}
+
+.container-2 {
+    max-width: 75rem;
+}
+
+/* layout gap */
+
+.gap-1 {
+    gap:1rem;
+}
+
+.gap-2 {
+    gap:2rem;
+}
+
+.gap-3 {
+    gap:3rem;
+}
+
+.gap-4 {
+    gap:4rem;
+}
+
+/* grids */
+.grid {
+    display: grid;
+}
+
+.grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Navs */
+
+.navbar {
+    background-color: #000610;
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    padding: .7rem 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 .4rem;
+}
+
+
+.first-nav {
+    justify-content: space-between;
+}
+
+.second-nav {
+    justify-content: space-between;
+}
+
+.second-nav ul li {
+    margin: 0 1.8rem;
+}
+
+.third-nav {
+    justify-content: space-between;
+}
+
+
+/* background colors */
+
+.bg-purple {
+    background-color: #1b004b;
+}
+
+.bg-purple-2 {
+    background-color: #140037;
+}
+
+/* logos */
+
+.logo {
+    width: 10%;
+}
+
+/* Layout position */
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-space-between{
+    justify-content: center;
+}
+
+.justify-self-center{
+    justify-self: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.nav-middle {
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 9rem;
+}
+
+.market-btn {
+    background-color: #1b1827;
+    color: #7EEAFE;
+    padding: 0 .9rem;
+
+}
+
+
+.nav-middle .fas {
+    color:#3e405b ;
+    margin: 0 .6rem;
+}
+
+.nav-middle li {
+    padding: .7rem .9rem;
+    border-radius: .3rem;
+}
+
+.nav-right li {
+    
+    border-radius: .3rem;
+}
+
+.fa-headphones {
+    background-color: #24215783;
+    padding: .7rem .9rem;
+    border-radius: 50%;
+    color: #5162bd;
+}
+
+.nav-right {
+    margin:0 .3rem;
+}
