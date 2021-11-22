@@ -33,13 +33,16 @@ function App() {
           <section className="navbar bg-purple-2">
           <div className="container flex ">
             {/* Second Nav */}
-            <nav className="flex ">
-              <ul className="justify-self-start p-1 justify-content-space-around">
-                <li>Cyberspawns</li>
-                <li>Cyberskins</li>
+            <nav className="flex justify-content-space-around ">
+              <ul className="justify-self-start p-1 justify-content-space-between">
+                <li className="p-2 mr-2 selected-spawn">Cyberspawns</li>
+                <li className="p-2 mr-2">Cyberskins</li>
 
-                <li>Avater Wears</li>
-                <li>Avater Skins</li>
+                <li className="p-2 mr-2">Avater Wears</li>
+                <li className="p-2 mr-2">Avater Skins</li>
+
+              </ul>
+              <ul>
 
               </ul>
             </nav>
@@ -51,7 +54,7 @@ function App() {
             <section className="navbar bg-purple">
           <div className="container flex">
             {/* Third Nav */}
-            <nav className="flex justify-content-space-between">
+            <nav className="flex justify-content-space-between p-2">
               <ul>
                 <li>Filter</li>
                 <li>Aves</li>

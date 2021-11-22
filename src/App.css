@@ -472,3 +472,10 @@ nav ul li {
 .text-dim-white {
     color: var(--dim-white);
 }
+
+.selected-spawn {
+    background-color: #190d49;
+    color: #7febff;
+    border-left: .3rem solid #7febff;
+    border-radius:.4rem 0 0 .4rem;
+}
