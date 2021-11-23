@@ -383,19 +383,19 @@ nav {
 
 nav ul {
     display: flex;
-    padding: .1rem 0;
+    padding:0 !important;
     list-style-type: none;
     align-items: center;
 }
 
 nav ul li {
-    margin: 0 .4rem;
-    padding: 0 .4rem ;
+    margin: 0 .2rem;
+    padding: 0 .2rem;
 }
 
 .nav-buttons {
     background-color:#0d0927;
-    padding: .6rem 1.5rem;
+    padding: .2rem 1.2rem;
     border-radius: .3rem;
     margin: 0 .1rem;
 }
@@ -411,11 +411,11 @@ nav ul li {
 }
 
 .third-nav ul {
-    padding: auto;
+    padding: .05rem !important;
 }
 
 .third-nav ul li {
-    font-size: .5rem;
+    font-size: .6rem;
 }
 
 
@@ -478,7 +478,7 @@ nav ul li {
 
 .btn-market {
     background-color: #1b1827;
-    padding: 1rem .9rem;
+    padding: 1rem .8rem;
     color: var(--light-blue);
 }
 
@@ -503,4 +503,41 @@ nav ul li {
     color: #7febff;
     border-left: .3rem solid #7febff;
     border-radius:.4rem 0 0 .4rem;
+}
+
+
+/* custom */
+
+.egg {
+    font-size: 1rem !important;
+}
+
+.egg-input {
+    margin-right: .3rem;
+}
+
+.adult {
+    font-size: 1rem !important;
+}
+
+.adult-input {
+    margin-right: .3rem;
+    background-color:#0f0729 !important;
+    color: #595959;
+
+}
+
+
+.clear {
+    font-size: 1rem !important;
+    background-color:#120335 !important;
+    padding: .2rem;
+
+}
+
+.fa-brush {
+    margin-left: .3rem;
+    background-color: #0d0927;
+    padding: .4rem;
+    color: #49c0ff;
 }

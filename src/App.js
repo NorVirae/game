@@ -76,12 +76,12 @@ function App() {
               </ul>
 
               <ul>
-                <li>Egg</li>
-                <li>Adult</li>
+                <li className="egg"><input className="egg-input" type="checkbox" /><label>Egg</label></li>
+                <li className="adult"><input className="adult-input" type="checkbox" /><label>Adult</label></li>
               </ul>
 
               <ul>
-                <li>Clear</li>
+                <li className="clear">Clear<i class="fas fa-brush"></i></li>
               </ul>
             </nav>
             {/* end of Nav */}
