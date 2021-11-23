@@ -611,8 +611,30 @@ nav ul li {
 }
 
 .card-collections{
-    height: 43%;
+    height: 36.5%;
     overflow-y: scroll;
 }
 
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #676e8a; 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #36385a; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #363657; 
+
+  }
 
