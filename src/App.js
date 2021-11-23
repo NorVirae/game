@@ -1,6 +1,7 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import logo from './assets/images/logo.png';
+import bird from './assets/images/birds2.png';
 
 function App() {
   return (
@@ -84,11 +85,99 @@ function App() {
                 <li className="clear">Clear<i class="fas fa-brush"></i></li>
               </ul>
             </nav>
-            {/* end of Nav */}
+            {/* end of all Nav */}
 
 
           </div>
         </section>
+
+        {/* All navs end here */}
+
+        <section className="collections">
+
+          <div className="container grid grid-3 gap-1">
+            <div className="card flex">
+                <img src={bird} className="logo"></img>
+                <div className="card-body">
+                    <div className="flex flex-column">
+                      <h4>C.spawn</h4>
+                      <p className="bar"></p>
+                      <div className="flex">
+                        <button className="btn btn-spawn"><i class="fas fa-golf-ball"></i>balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                      </div>  
+
+                      
+                      </div>
+                    </div>
+              </div>
+
+              <div className="card flex">
+                <img src={bird} className="logo"></img>
+                <div className="card-body">
+                    <div className="flex flex-column">
+                      <h4>C.spawn</h4>
+                      <p className="bar"></p>
+                      <div className="flex">
+                        <button className="btn btn-spawn"><i class="fas fa-golf-ball"></i>balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                      </div>  
+
+                      </div>
+                    </div>
+              </div>
+
+              <div className="card flex">
+                <img src={bird} className="logo"></img>
+                <div className="card-body">
+                    <div className="flex flex-column">
+                      <h4>C.spawn</h4>
+                      <p className="bar"></p>
+                      <div className="flex">
+                        <button className="btn btn-spawn"><i class="fas fa-golf-ball"></i>balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                      </div>  
+
+                      </div>
+                    </div>
+
+                    
+
+              </div>
+
+
+              <div className="card flex">
+                <img src={bird} className="bird"/>
+
+                <div className="card-body flex flex-column justify-content-center">
+                    
+                      <h4>C.spawn</h4>
+                      <p className="bar">.</p>
+                      <div className="flex">
+                
+                        <button className="btn btn-spawn"> <img src={bird} className="bird"/>balls</button>
+                        <button className="btn btn-spawn">balls</button>
+                        <button className="btn btn-spawn">balls</button>
+
+                      </div>
+                    </div>
+                    <p className="flex flex-column justify-content-center align-items-flex-end">
+                      <h2>=0.518</h2>
+                        <h4>$506</h4>
+                      </p>
+              </div>
+              
+
+
+              
+          </div>
+        </section>
+
+
+
       </>
   
   );
