@@ -12,14 +12,13 @@ function App() {
         {/* All Navs */}
         <Navs/>
         {/* Nav Ends */}
+
+        <main>
         
-        <section className="collections grid grid-card-3">
+        <section className="collections">
 
-              <div>
-                  
-              </div>
 
-              <div className="card-collections grid grid-3 gap-1">
+              <div className="card-container card-collections grid grid-3 gap-1">
 
                       {/* bEGINING OF CARD */}
                     {num.map((cd)=>{
@@ -62,6 +61,16 @@ function App() {
                   <p className="arrow-down"><i class="fas fa-caret-circle-down fa-2x"></i></p>
                 </div>
 
+          </section>
+
+        </main>
+
+        <section className="bottom-navigation flex justify-content-center align-items-center">
+            <p><i class="fas fa-caret-square-left fa-2x"></i></p>
+            <h4 class="page">page</h4>
+            <h4 className="twenty">20</h4>
+            <h4 className="fiv-six">5656</h4>
+            <p><i class="fas fa-caret-square-right fa-2x"></i></p>
         </section>
 
 

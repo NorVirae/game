@@ -66,7 +66,7 @@ const Navs = () => {
               </ul>
 
               <ul className="bg-nav-ul">
-                <li className="nav-buttons ">Crown</li>
+                <li className="nav-buttons nav-active">Crown<i class="fas fa-caret-down pl-1"></i></li>
                 <li className="nav-buttons ">Eyes</li>
                 <li className="nav-buttons ">Mouth</li>
                 <li className="nav-buttons ">Arms</li>

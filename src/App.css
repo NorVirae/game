@@ -15,6 +15,12 @@
     margin: auto;
 }
 
+.card-container {
+    max-width: 1080px;
+    margin: auto;
+    height: 20%;
+}
+
 .container-2 {
     max-width: 75rem;
 }
@@ -60,6 +66,12 @@
     grid-template-columns: 10% 80% 10%;
 }
 
+
+
+/* span */
+.span-full {
+    grid-column: span 100%;
+}
 
 /* Paddings */
 
@@ -399,6 +411,12 @@ nav ul li {
     padding: 0 .2rem;
 }
 
+nav ul li:hover {
+    cursor: pointer;
+}
+
+
+
 .nav-buttons {
     background-color:#0d0927;
     padding: .2rem 1.2rem;
@@ -560,11 +578,13 @@ nav ul li {
 
 .arrow-up {
     position: absolute;
+    top: 30%;
+
 }
 
 .arrow-down {
     position: absolute;
-    top: 90%;
+    top: 87%;
 }
 
 /* cards  */
@@ -597,6 +617,10 @@ nav ul li {
     width: 100%;
     font-size: .7rem;
 }
+
+.btn:hover {
+    cursor: pointer;
+}
 .card img {
     width: 30%;
 }
@@ -605,15 +629,15 @@ nav ul li {
 
 .collections {
     padding: 1.9rem;
-    height: auto;
     margin: auto;
    
 }
 
 .card-collections{
-    height: 36.5%;
-    overflow-y: scroll;
 }
+
+
+/* scroll bar styling */
 
 
 ::-webkit-scrollbar {
@@ -638,3 +662,30 @@ nav ul li {
 
   }
 
+/* bottom navigation */
+  .bottom-navigation > * {
+      margin: 0 .5rem;
+      color: var(--dim-white);
+
+  }
+
+  .page {
+
+  }
+
+  .twenty {
+      padding: .4rem .6rem;
+      background-color: #240054;
+      border-radius: .3rem;
+
+  }
+
+  .five-six {
+
+}
+
+.fa-caret-square-right, .fa-caret-square-left {
+    height: .3rem;
+    width: 2rem;
+    
+}
