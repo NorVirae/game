@@ -138,10 +138,8 @@ function App() {
 
 
           <div className="flex flex-column justify-content-space-between align-items-flex-end">
-          <p><i class="fas fa-caret-circle-up fa-2x"></i></p>
-
-              <p><i class="fas fa-caret-circle-down fa-2x"></i></p>
-
+              <p className="arrow-up"><i class="fas fa-caret-circle-up fa-2x"></i></p>
+              <p className="arrow-down"><i class="fas fa-caret-circle-down fa-2x"></i></p>
             </div>
 
         </section>

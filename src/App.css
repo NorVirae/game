@@ -558,6 +558,15 @@ nav ul li {
     color: #49c0ff;
 }
 
+.arrow-up {
+    position: absolute;
+}
+
+.arrow-down {
+    position: absolute;
+    top: 90%;
+}
+
 /* cards  */
 
 .card {
@@ -596,6 +605,8 @@ nav ul li {
 
 .collections {
     padding: 1.9rem;
+    height: auto;
+    margin: auto;
    
 }
 
@@ -603,4 +614,5 @@ nav ul li {
     height: 43%;
     overflow-y: scroll;
 }
+
 
