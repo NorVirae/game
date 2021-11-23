@@ -475,8 +475,8 @@ nav ul li {
     justify-self: flex-start;
 }
 
-.align-content-center {
-    align-content: center;
+.align-items-center {
+    align-items: center;
 }
 
 
@@ -515,7 +515,9 @@ nav ul li {
 
 
 /* custom */
-
+.transparent {
+    color: transparent !important;
+}
 .egg {
     font-size: 1rem !important;
 }
@@ -566,7 +568,7 @@ nav ul li {
 .bar {
     background-color: yellow;
     color: yellow;
-    width: 100%;
+    width: 50%;
     border-radius: .3rem;
     border:none;
 }
@@ -574,14 +576,14 @@ nav ul li {
 .btn {
     border: none;
     margin-right: .3rem;
-    padding: .2rem .6rem;
+    padding: .2rem .4rem;
     background-color: #20194c;
     color: var(--dim-white);
     width: 100%;
     font-size: .7rem;
 }
 .card img {
-    width: 35%;
+    width: 30%;
 }
 
 /* collection section */
@@ -589,3 +591,4 @@ nav ul li {
 .collections {
     padding: 1.3rem;
 }
+

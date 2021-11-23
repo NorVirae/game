@@ -152,15 +152,15 @@ function App() {
               <div className="card flex">
                 <img src={bird} className="bird"/>
 
-                <div className="card-body flex flex-column justify-content-center">
+                <div className="card-body flex flex-column justify-content-center align-items-center">
                     
                       <h4>C.spawn</h4>
                       <p className="bar">.</p>
                       <div className="flex">
                 
                         <button className="btn btn-spawn"> <img src={bird} className="bird"/>balls</button>
-                        <button className="btn btn-spawn">balls</button>
-                        <button className="btn btn-spawn">balls</button>
+                        <button className="btn btn-spawn transparent">.</button>
+                        <button className="btn btn-spawn transparent">balls</button>
 
                       </div>
                     </div>
