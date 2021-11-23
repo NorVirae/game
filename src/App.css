@@ -33,6 +33,8 @@
     gap:3rem;
 }
 
+
+
 .gap-4 {
     gap:4rem;
 }
@@ -52,6 +54,10 @@
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-card-3 {
+    grid-template-columns: 10% 80% 10%;
 }
 
 
@@ -589,6 +595,12 @@ nav ul li {
 /* collection section */
 
 .collections {
-    padding: 1.3rem;
+    padding: 1.9rem;
+   
+}
+
+.card-collections{
+    height: 43%;
+    overflow-y: scroll;
 }
 
