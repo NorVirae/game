@@ -54,24 +54,25 @@ function App() {
             <section className="navbar bg-purple">
           <div className="container flex">
             {/* Third Nav */}
-            <nav className="flex justify-content-space-between p-2">
-              <ul>
-                <li>Filter</li>
-                <li>Aves</li>
-                <li>Reptiles</li>
-                <li>Mammals</li>
-                <li>Amphibs</li>
-                <li>Anthropods</li>
-                <li>Aqua</li>
+            <nav className="third-nav flex justify-content-space-between p-2">
+              <p>Filter</p>
+
+              <ul className="bg-nav-ul">
+                <li className="nav-buttons ">Aves</li>
+                <li className="nav-buttons nav-active ">Reptiles</li>
+                <li className="nav-buttons ">Mammals</li>
+                <li className="nav-buttons ">Amphibs</li>
+                <li className="nav-buttons ">Anthropods</li>
+                <li className="nav-buttons ">Aqua</li>
               </ul>
 
-              <ul>
-                <li>Crown</li>
-                <li>Eyes</li>
-                <li>Mouth</li>
-                <li>Arms</li>
-                <li>Tail</li>
-                <li>Feet</li>
+              <ul className="bg-nav-ul">
+                <li className="nav-buttons ">Crown</li>
+                <li className="nav-buttons ">Eyes</li>
+                <li className="nav-buttons ">Mouth</li>
+                <li className="nav-buttons ">Arms</li>
+                <li className="nav-buttons ">Tail</li>
+                <li className="nav-buttons ">Feet</li>
               </ul>
 
               <ul>

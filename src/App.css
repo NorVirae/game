@@ -393,6 +393,31 @@ nav ul li {
     padding: 0 .4rem ;
 }
 
+.nav-buttons {
+    background-color:#0d0927;
+    padding: .6rem 1.5rem;
+    border-radius: .3rem;
+    margin: 0 .1rem;
+}
+
+.nav-active {
+    background-image: linear-gradient(to top, #1b004a,#1b004a,#1e0050,#263575);
+}
+
+.bg-nav-ul {
+    background-color: #130236;
+    border-radius: .3rem;
+
+}
+
+.third-nav ul {
+    padding: auto;
+}
+
+.third-nav ul li {
+    font-size: .5rem;
+}
+
 
 
 /* background colors */
