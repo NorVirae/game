@@ -419,7 +419,7 @@ nav ul li:hover {
 
 .nav-buttons {
     background-color:#0d0927;
-    padding: .2rem 1.2rem;
+    padding: .7rem 1rem;
     border-radius: .3rem;
     margin: 0 .1rem;
 }
@@ -557,7 +557,7 @@ nav ul li:hover {
     color: transparent !important;
 }
 .egg {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
 }
 
 .egg-input {
@@ -565,7 +565,7 @@ nav ul li:hover {
 }
 
 .adult {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
 }
 
 .adult-input {
@@ -577,7 +577,7 @@ nav ul li:hover {
 
 
 .clear {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
     background-color:#120335 !important;
     padding: .2rem;
 

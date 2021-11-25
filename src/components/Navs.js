@@ -67,11 +67,11 @@ const Navs = () => {
 
               <ul className="bg-nav-ul">
                 <li className="nav-buttons nav-active">Crown<i class="fas fa-caret-down pl-1"></i></li>
-                <li className="nav-buttons ">Eyes</li>
-                <li className="nav-buttons ">Mouth</li>
-                <li className="nav-buttons ">Arms</li>
-                <li className="nav-buttons ">Tail</li>
-                <li className="nav-buttons ">Feet</li>
+                <li className="nav-buttons ">Eyes<i class="fas fa-caret-down pl-1"></i></li>
+                <li className="nav-buttons ">Mouth<i class="fas fa-caret-down pl-1"></i></li>
+                <li className="nav-buttons ">Arms<i class="fas fa-caret-down pl-1"></i></li>
+                <li className="nav-buttons ">Tail<i class="fas fa-caret-down pl-1"></i></li>
+                <li className="nav-buttons ">Feet<i class="fas fa-caret-down pl-1"></i></li>
               </ul>
 
               <ul>
