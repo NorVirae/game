@@ -3,29 +3,33 @@ import logo from '../assets/images/cs-logo.png';
 
 
 const Navs = () => {
-    const [selected, setSelected] = useState(1)
+    const [selectedTopNav, setSelectedTopNav] = useState(2)
+    const [selectedMiddleNav, setSelectedMiddleNav] = useState(1)
+
     return (
         <>
         <section className="navbar">
           <div className="container flex">
-            {/* First Nav */}
+
+
+            {/* Top Nav */}
             <img className="logo" src={logo} alt="logo" />
 
 
             <nav className="flex justify-content-space-between ml-9">
 
               <ul className="">
-                <li onClick={e=>setSelected(e.target.value)}
+                <li onClick={e=>setSelectedTopNav(e.target.value)}
                  value={1}
                   className={
-                    selected==1?"btn-market text-dim-white m-1":"text-dim-white m-1"}>
+                    selectedTopNav==1?"btn-market text-dim-white m-1":"text-dim-white m-1"}>
                       Dashboard
                       </li>
 
 
-                <li onClick={e=>setSelected(e.target.value)}
+                <li onClick={e=>setSelectedTopNav(e.target.value)}
                  value={2}
-                  className={selected==2?"m-1 btn-market":"m-1"}>
+                  className={selectedTopNav==2?"m-1 btn-market":"m-1"}>
                     <i class="fas fa-home text-dim-ash mr-1">
                       </i>Marketplace</li>
               </ul>
@@ -36,6 +40,7 @@ const Navs = () => {
               </ul>
 
             </nav>
+
             {/* end of Nav */}
             </div>
 
@@ -43,14 +48,17 @@ const Navs = () => {
 
           <section className="navbar bg-purple-2">
           <div className="container flex ">
-            {/* Second Nav */}
+
+
+
+            {/* Middle Nav */}
             <nav className="flex justify-content-space-around ">
               <ul className="justify-self-start p-1 justify-content-space-between">
-                <li className="p-2 mr-2 selected-spawn">Cyberspawns</li>
-                <li className="p-2 mr-2">Cyberskins</li>
+                <li onClick={e=>setSelectedMiddleNav(e.target.value)} value={1} className={selectedMiddleNav==1?"p-2 mr-2 selected-spawn":"p-2 mr-2"}>Cyberspawns</li>
+                <li onClick={e=>setSelectedMiddleNav(e.target.value)} value={2} className={selectedMiddleNav==2?"p-2 mr-2 selected-spawn":"p-2 mr-2"}>Cyberskins</li>
 
-                <li className="p-2 mr-2">Avater Wears</li>
-                <li className="p-2 mr-2">Avater Skins</li>
+                <li onClick={e=>setSelectedMiddleNav(e.target.value)} value={3} className={selectedMiddleNav==3?"p-2 mr-2 selected-spawn":"p-2 mr-2"}>Avater Wears</li>
+                <li onClick={e=>setSelectedMiddleNav(e.target.value)} value={4} className={selectedMiddleNav==4?"p-2 mr-2 selected-spawn":"p-2 mr-2"}>Avater Skins</li>
 
               </ul>
               <ul>
@@ -64,7 +72,10 @@ const Navs = () => {
 
             <section className="navbar bg-purple">
           <div className="container flex">
-            {/* Third Nav */}
+
+
+
+            {/* Bottom Nav */}
             <nav className="third-nav flex justify-content-space-between p-2">
               <p>Filter</p>
 
