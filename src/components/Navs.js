@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import logo from '../assets/images/cs-logo.png';
 
 
 const Navs = () => {
-
+    const [selected, setSelected] = useState(1)
     return (
         <>
         <section className="navbar">
@@ -13,9 +14,20 @@ const Navs = () => {
 
             <nav className="flex justify-content-space-between ml-9">
 
-              <ul  className="">
-                <li className="text-dim-white">Dashboard</li>
-                <li className="btn-market m-1"><i class="fas fa-home text-dim-ash mr-1"></i>Marketplace</li>
+              <ul className="">
+                <li onClick={e=>setSelected(e.target.value)}
+                 value={1}
+                  className={
+                    selected==1?"btn-market text-dim-white m-1":"text-dim-white m-1"}>
+                      Dashboard
+                      </li>
+
+
+                <li onClick={e=>setSelected(e.target.value)}
+                 value={2}
+                  className={selected==2?"m-1 btn-market":"m-1"}>
+                    <i class="fas fa-home text-dim-ash mr-1">
+                      </i>Marketplace</li>
               </ul>
 
               <ul className="">
