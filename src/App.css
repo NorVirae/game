@@ -408,7 +408,7 @@ nav ul {
 
 nav ul li {
     margin: 0 .2rem;
-    padding: 0 .2rem;
+    padding: 0 .5rem;
 }
 
 nav ul li:hover {
@@ -507,7 +507,6 @@ nav ul li:hover {
 
 
 /* buttons */
-
 .btn-market {
     background-color: #1b1827;
     padding: 1rem .8rem;
@@ -520,8 +519,23 @@ nav ul li:hover {
     color: var(--light-purple);
 }
 
-/* text-color */
+.btn {
+    border: none;
+    margin-right: .3rem;
+    padding: .2rem .4rem;
+    background-color: #20194c;
+    color: var(--dim-white);
+    width: 100%;
+    font-size: .7rem;
+}
 
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
+/* text-color */
 .text-dim-ash {
     color: var(--dim-ash);
 }
@@ -578,13 +592,13 @@ nav ul li:hover {
 
 .arrow-up {
     position: absolute;
-    top: 30%;
+    top: 28%;
 
 }
 
 .arrow-down {
     position: absolute;
-    top: 87%;
+    top: 83%;
 }
 
 /* cards  */
@@ -608,19 +622,7 @@ nav ul li:hover {
     border:none;
 }
 
-.btn {
-    border: none;
-    margin-right: .3rem;
-    padding: .2rem .4rem;
-    background-color: #20194c;
-    color: var(--dim-white);
-    width: 100%;
-    font-size: .7rem;
-}
 
-.btn:hover {
-    cursor: pointer;
-}
 .card img {
     width: 30%;
 }
@@ -662,32 +664,61 @@ nav ul li:hover {
 
   }
 
-/* bottom navigation */
-  .bottom-navigation > * {
-      margin: 0 .5rem;
+/* Footer section */
+  .footer {
+      background-image: url("./assets/images/CSmp-pg-nav.svg");
       color: var(--dim-white);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 
   }
 
+  
   /*  */
 
-  .page {
+  .page-tile {
 
   }
 
-  .twenty {
-      padding: .4rem .6rem;
+  .current-page {
+      /* padding: .4rem .6rem; */
       background-color: #240054;
       border-radius: .3rem;
 
   }
 
-  .five-six {
+  .max-page {
 
     }
 
-.fa-caret-square-right, .fa-caret-square-left {
-    height: .3rem;
-    width: 2rem;
-    
+
+
+/* background-colors */
+
+.bg-arrow-purple{
+    background-color: #5162bd;
+    color: #ffffff;
+    border-radius: 100%;
+}
+
+.bg-dark {
+    background-color: #12121f !important;
+}
+
+.smooth {
+    border-radius: .4rem;
+}
+
+.bg-ash {
+    background-color: #2a2146 !important;
+}
+
+.text-purple {
+    color: #ffffff;
+    background-color: #5162bd;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+
 }

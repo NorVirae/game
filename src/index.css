@@ -31,12 +31,12 @@ body {
     background-size: contain;
     background-position: center;
     font-size: .8rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 main {
     overflow-y: scroll;
-    height: 28rem;
+    height: 27rem;
     margin: 0 1rem;
 }
 

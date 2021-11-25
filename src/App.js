@@ -34,9 +34,9 @@ function App() {
                                         <p className="bar">.</p>
                                         <div className="flex">
                                   
-                                          <button className="btn btn-spawn"> <img src={bird} className="bird"/>balls</button>
-                                          <button className="btn btn-spawn transparent">.</button>
-                                          <button className="btn btn-spawn transparent">balls</button>
+                                          <button className="btn"> <img src={bird} className="bird"/>balls</button>
+                                          <button className="btn transparent">.</button>
+                                          <button className="btn transparent">balls</button>
 
                                         </div>
                                       </div>
@@ -57,20 +57,23 @@ function App() {
 
 
               <div className="flex flex-column justify-content-space-between align-items-flex-end">
-                  <p className="arrow-up"><i class="fas fa-caret-circle-up fa-2x"></i></p>
-                  <p className="arrow-down"><i class="fas fa-caret-circle-down fa-2x"></i></p>
+              
+                  <p className="arrow-up"><i class="fad text-purple fa-caret-circle-up mx-1 px-2 fa-2x "></i></p>
+                  <p className="arrow-down"><i class="fad text-purple fa-caret-circle-down mx-1 px-2 fa-2x "></i></p>
                 </div>
 
           </section>
 
         </main>
 
-        <section className="bottom-navigation flex justify-content-center align-items-center">
-            <p><i class="fas fa-caret-square-left fa-2x"></i></p>
-            <h4 class="page">page</h4>
-            <h4 className="twenty">20</h4>
-            <h4 className="fiv-six">5656</h4>
-            <p><i class="fas fa-caret-square-right fa-2x"></i></p>
+        <section className="footer">
+          <div class={"container flex justify-content-center align-items-center p-1"}>
+          <i class="fas fa-caret-left bg-dark mx-1 px-2 fa-2x smooth"></i>
+            <h4 class="page-tile mx-1">page</h4>
+            <h4 className="current-page mx-1 p-1">20</h4>
+            <h4 className="max-page mx-1">5656</h4>
+          <i class="fas fa-caret-right bg-dark mx-1 fa-2x px-2 smooth"></i>
+          </div>
         </section>
 
 
